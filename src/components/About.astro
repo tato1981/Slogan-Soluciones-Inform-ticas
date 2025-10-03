@@ -1,0 +1,190 @@
+---
+// Sección sobre la empresa - Solo Tailwind CSS
+---
+
+<section id="nosotros" class="py-20 relative overflow-hidden">
+  <!-- Background effects -->
+  <div class="absolute inset-0 bg-gradient-to-b from-gray-900 to-cyan-900/20 opacity-70"></div>
+  <div class="absolute top-0 right-0 w-72 h-72 bg-cyan-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
+  <div class="absolute bottom-0 left-0 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse animation-delay-2000"></div>
+  
+  <div class="container mx-auto px-4 relative z-10">
+    <div class="flex flex-col lg:flex-row items-center gap-12">
+      <!-- Contenido principal -->
+      <div class="lg:w-1/2">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6 text-cyan-300 glow-text">SOBRE NOSOTROS</h2>
+        <div class="space-y-4 text-cyan-100">
+          <p class="text-lg leading-relaxed">
+            Con más de <span class="font-bold text-cyan-300">10 años de experiencia</span> en el sector tecnológico, 
+            en Slogan Soluciones Informáticas nos hemos consolidado como un referente en desarrollo 
+            de software y soluciones digitales innovadoras.
+          </p>
+          <p class="text-lg leading-relaxed">
+            Nuestro equipo de expertos combina conocimiento técnico avanzado con una comprensión 
+            profunda de las necesidades empresariales, permitiéndonos ofrecer soluciones que 
+            realmente impulsan el crecimiento de nuestros clientes.
+          </p>
+          <p class="text-lg leading-relaxed">
+            Nos especializamos en tecnologías modernas como <span class="text-cyan-300">React, Astro, WordPress</span> 
+            y ofrecemos servicios integrales de <span class="text-cyan-300">ciberseguridad</span> para proteger 
+            tus activos digitales.
+          </p>
+        </div>
+        
+        <!-- Estadísticas -->
+        <div class="mt-8 grid grid-cols-2 gap-4">
+          <div class="flex items-center space-x-3 p-3 rounded-lg bg-cyan-900/30 border border-cyan-500/20 hover:bg-cyan-900/50 transition-all duration-300 group">
+            <div class="w-3 h-3 rounded-full bg-cyan-500 group-hover:scale-150 transition-transform duration-300"></div>
+            <span class="text-cyan-300 font-semibold">+10 Años de Experiencia</span>
+          </div>
+          <div class="flex items-center space-x-3 p-3 rounded-lg bg-cyan-900/30 border border-cyan-500/20 hover:bg-cyan-900/50 transition-all duration-300 group">
+            <div class="w-3 h-3 rounded-full bg-cyan-500 group-hover:scale-150 transition-transform duration-300"></div>
+            <span class="text-cyan-300 font-semibold">+100 Proyectos Completados</span>
+          </div>
+          <div class="flex items-center space-x-3 p-3 rounded-lg bg-cyan-900/30 border border-cyan-500/20 hover:bg-cyan-900/50 transition-all duration-300 group">
+            <div class="w-3 h-3 rounded-full bg-cyan-500 group-hover:scale-150 transition-transform duration-300"></div>
+            <span class="text-cyan-300 font-semibold">Tecnologías de Vanguardia</span>
+          </div>
+          <div class="flex items-center space-x-3 p-3 rounded-lg bg-cyan-900/30 border border-cyan-500/20 hover:bg-cyan-900/50 transition-all duration-300 group">
+            <div class="w-3 h-3 rounded-full bg-cyan-500 group-hover:scale-150 transition-transform duration-300"></div>
+            <span class="text-cyan-300 font-semibold">Soporte 24/7</span>
+          </div>
+        </div>
+        
+        <!-- Tecnologías -->
+        <div class="mt-8">
+          <h3 class="text-xl font-bold text-cyan-300 mb-4">Tecnologías que Dominamos</h3>
+          <div class="flex flex-wrap gap-3">
+            <span class="px-4 py-2 bg-cyan-900/40 text-cyan-300 rounded-full border border-cyan-500/30 hover:bg-cyan-800/60 hover:border-cyan-400/50 transition-all duration-300">React</span>
+            <span class="px-4 py-2 bg-cyan-900/40 text-cyan-300 rounded-full border border-cyan-500/30 hover:bg-cyan-800/60 hover:border-cyan-400/50 transition-all duration-300">Astro</span>
+            <span class="px-4 py-2 bg-cyan-900/40 text-cyan-300 rounded-full border border-cyan-500/30 hover:bg-cyan-800/60 hover:border-cyan-400/50 transition-all duration-300">WordPress</span>
+            <span class="px-4 py-2 bg-cyan-900/40 text-cyan-300 rounded-full border border-cyan-500/30 hover:bg-cyan-800/60 hover:border-cyan-400/50 transition-all duration-300">Node.js</span>
+            <span class="px-4 py-2 bg-cyan-900/40 text-cyan-300 rounded-full border border-cyan-500/30 hover:bg-cyan-800/60 hover:border-cyan-400/50 transition-all duration-300">Python</span>
+            <span class="px-4 py-2 bg-cyan-900/40 text-cyan-300 rounded-full border border-cyan-500/30 hover:bg-cyan-800/60 hover:border-cyan-400/50 transition-all duration-300">Cybersecurity</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Tarjeta de filosofía -->
+      <div class="lg:w-1/2">
+        <div class="relative p-8 rounded-lg bg-gray-800/40 backdrop-blur-sm border border-cyan-500/30 shadow-lg shadow-cyan-500/10">
+          <!-- Efecto de gradiente de fondo -->
+          <div class="absolute inset-0 rounded-lg bg-gradient-to-br from-cyan-500/5 to-blue-500/5"></div>
+          
+          <div class="relative z-10">
+            <h3 class="text-2xl font-bold mb-6 text-center text-cyan-300 glow-text">NUESTRA FILOSOFÍA</h3>
+            <div class="space-y-6">
+              <!-- Innovación -->
+              <div class="flex items-start space-x-4 group hover:scale-105 transition-transform duration-300">
+                <div class="w-12 h-12 rounded-full bg-cyan-900 flex items-center justify-center flex-shrink-0 group-hover:bg-cyan-800 transition-colors duration-300">
+                  <span class="text-cyan-300 text-xl group-hover:scale-110 transition-transform duration-300">⚡</span>
+                </div>
+                <div>
+                  <h4 class="font-bold text-cyan-200 mb-2 text-lg group-hover:text-cyan-100 transition-colors duration-300">Innovación Constante</h4>
+                  <p class="text-cyan-100 group-hover:text-cyan-50 transition-colors duration-300">
+                    Mantenemosnos a la vanguardia tecnológica para ofrecer soluciones modernas y eficientes.
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Seguridad -->
+              <div class="flex items-start space-x-4 group hover:scale-105 transition-transform duration-300">
+                <div class="w-12 h-12 rounded-full bg-cyan-900 flex items-center justify-center flex-shrink-0 group-hover:bg-cyan-800 transition-colors duration-300">
+                  <span class="text-cyan-300 text-xl group-hover:scale-110 transition-transform duration-300">🔒</span>
+                </div>
+                <div>
+                  <h4 class="font-bold text-cyan-200 mb-2 text-lg group-hover:text-cyan-100 transition-colors duration-300">Seguridad Primero</h4>
+                  <p class="text-cyan-100 group-hover:text-cyan-50 transition-colors duration-300">
+                    Implementamos las mejores prácticas de seguridad en todos nuestros desarrollos.
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Resultados -->
+              <div class="flex items-start space-x-4 group hover:scale-105 transition-transform duration-300">
+                <div class="w-12 h-12 rounded-full bg-cyan-900 flex items-center justify-center flex-shrink-0 group-hover:bg-cyan-800 transition-colors duration-300">
+                  <span class="text-cyan-300 text-xl group-hover:scale-110 transition-transform duration-300">🎯</span>
+                </div>
+                <div>
+                  <h4 class="font-bold text-cyan-200 mb-2 text-lg group-hover:text-cyan-100 transition-colors duration-300">Enfoque en Resultados</h4>
+                  <p class="text-cyan-100 group-hover:text-cyan-50 transition-colors duration-300">
+                    Cada proyecto está orientado a generar valor tangible para tu negocio.
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Calidad -->
+              <div class="flex items-start space-x-4 group hover:scale-105 transition-transform duration-300">
+                <div class="w-12 h-12 rounded-full bg-cyan-900 flex items-center justify-center flex-shrink-0 group-hover:bg-cyan-800 transition-colors duration-300">
+                  <span class="text-cyan-300 text-xl group-hover:scale-110 transition-transform duration-300">⭐</span>
+                </div>
+                <div>
+                  <h4 class="font-bold text-cyan-200 mb-2 text-lg group-hover:text-cyan-100 transition-colors duration-300">Calidad Garantizada</h4>
+                  <p class="text-cyan-100 group-hover:text-cyan-50 transition-colors duration-300">
+                    Nos comprometemos con la excelencia en cada detalle de nuestros proyectos.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- CTA dentro de la tarjeta -->
+            <div class="mt-8 pt-6 border-t border-cyan-500/20">
+              <div class="text-center">
+                <a 
+                  href="#contacto" 
+                  class="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-gray-900 font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 relative overflow-hidden group"
+                >
+                  <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+                  <span class="relative z-10 flex items-center justify-center space-x-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                    </svg>
+                    <span>COMENZAR PROYECTO</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Efecto de borde animado -->
+          <div class="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10">
+            <div class="absolute inset-[2px] rounded-lg bg-gray-800/95"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Sección adicional de valores -->
+    <div class="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="text-center p-6 rounded-lg bg-gray-800/30 border border-cyan-500/20 hover:bg-gray-800/50 transition-all duration-300 group">
+        <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-cyan-900 flex items-center justify-center group-hover:bg-cyan-800 transition-colors duration-300">
+          <span class="text-cyan-300 text-2xl">🤝</span>
+        </div>
+        <h3 class="text-xl font-bold text-cyan-300 mb-3">Compromiso Total</h3>
+        <p class="text-cyan-100">
+          Nos involucramos en cada proyecto como si fuera nuestro, garantizando resultados excepcionales.
+        </p>
+      </div>
+      
+      <div class="text-center p-6 rounded-lg bg-gray-800/30 border border-cyan-500/20 hover:bg-gray-800/50 transition-all duration-300 group">
+        <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-cyan-900 flex items-center justify-center group-hover:bg-cyan-800 transition-colors duration-300">
+          <span class="text-cyan-300 text-2xl">🚀</span>
+        </div>
+        <h3 class="text-xl font-bold text-cyan-300 mb-3">Innovación Continua</h3>
+        <p class="text-cyan-100">
+          Siempre a la vanguardia tecnológica, implementando las últimas tendencias y mejores prácticas.
+        </p>
+      </div>
+      
+      <div class="text-center p-6 rounded-lg bg-gray-800/30 border border-cyan-500/20 hover:bg-gray-800/50 transition-all duration-300 group">
+        <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-cyan-900 flex items-center justify-center group-hover:bg-cyan-800 transition-colors duration-300">
+          <span class="text-cyan-300 text-2xl">💎</span>
+        </div>
+        <h3 class="text-xl font-bold text-cyan-300 mb-3">Calidad Premium</h3>
+        <p class="text-cyan-100">
+          Cada línea de código, cada diseño, cada solución está crafted con la más alta calidad.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

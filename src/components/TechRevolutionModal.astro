@@ -1,0 +1,300 @@
+---
+// Modal de Revolución Tecnológica - Se muestra siempre al ingresar
+---
+
+<div id="techRevolutionModal" class="fixed inset-0 z-50 hidden">
+  <!-- Overlay con efecto -->
+  <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+  
+  <!-- Contenido del Modal -->
+  <div class="relative flex items-center justify-center min-h-screen p-2 sm:p-4">
+    <div class="relative w-full max-w-4xl mx-2 sm:mx-4 bg-gray-900 rounded-xl sm:rounded-2xl border border-cyan-500/30 shadow-2xl shadow-cyan-500/20 overflow-hidden max-h-[90vh] overflow-y-auto">
+      <!-- Efecto de fondo animado -->
+      <div class="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-purple-500/5 to-blue-500/10"></div>
+      
+      <!-- Partículas flotantes -->
+      <div class="absolute top-4 sm:top-10 left-4 sm:left-10 w-3 h-3 sm:w-4 sm:h-4 bg-cyan-400 rounded-full opacity-60 animate-pulse"></div>
+      <div class="absolute top-8 sm:top-20 right-4 sm:right-16 w-2 h-2 sm:w-3 sm:h-3 bg-blue-400 rounded-full opacity-40 animate-pulse animation-delay-1000"></div>
+      <div class="absolute bottom-12 sm:bottom-16 left-6 sm:left-20 w-2 h-2 bg-purple-400 rounded-full opacity-50 animate-pulse animation-delay-2000"></div>
+      <div class="absolute bottom-4 sm:bottom-10 right-4 sm:right-10 w-4 h-4 sm:w-5 sm:h-5 bg-cyan-300 rounded-full opacity-30 animate-pulse animation-delay-1500"></div>
+
+      <!-- Header del Modal -->
+      <div class="relative p-4 sm:p-6 md:p-8 text-center border-b border-cyan-500/20 bg-gradient-to-r from-cyan-900/20 to-blue-900/20">
+        <div class="flex justify-center mb-3 sm:mb-4">
+          <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center shadow-lg shadow-cyan-500/30">
+            <span class="text-black font-bold text-2xl sm:text-3xl">S</span>
+          </div>
+        </div>
+        
+        <h2 class="text-2xl sm:text-4xl md:text-5xl font-bold text-cyan-300 glow-text mb-3 sm:mb-4">
+          ¡REVOLUCIÓN <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">TECNOLÓGICA</span>!
+        </h2>
+        
+        <div class="w-32 sm:w-48 h-1 bg-gradient-to-r from-cyan-500 to-blue-500 mx-auto rounded-full mb-3 sm:mb-4"></div>
+        
+        <p class="text-lg sm:text-xl text-cyan-100 max-w-2xl mx-auto px-2 font-semibold">
+          Una iniciativa de <span class="text-cyan-300">Slogan Soluciones Informáticas</span>
+        </p>
+      </div>
+
+      <!-- Contenido Principal -->
+      <div class="relative p-4 sm:p-6 md:p-8">
+        <!-- Mensaje de Bienvenida -->
+        <div class="text-center mb-6 sm:mb-8">
+          <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-cyan-300 mb-4 glow-text">
+            🎉 ¡Bienvenidos al Evento del Año!
+          </h3>
+          <p class="text-cyan-100 text-lg sm:text-xl leading-relaxed mb-4">
+            Te invitamos a nuestro <span class="text-cyan-300 font-semibold">encuentro exclusivo</span> donde 
+            descubrirás cómo potenciar tu empresa con las últimas tecnologías.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 mb-6 sm:mb-8">
+          <!-- Columna Izquierda - Oferta Especial -->
+          <div class="space-y-4 sm:space-y-6">
+            <!-- Banner de Descuento -->
+            <div class="relative p-4 sm:p-6 rounded-lg bg-gradient-to-br from-cyan-900/40 to-blue-900/40 border border-cyan-500/30 text-center overflow-hidden">
+              <div class="absolute -top-4 -right-4 w-24 h-24 bg-red-500 rounded-full opacity-20"></div>
+              <div class="absolute -bottom-4 -left-4 w-20 h-20 bg-yellow-500 rounded-full opacity-20"></div>
+              
+              <div class="relative z-10">
+                <div class="text-4xl sm:text-5xl font-bold text-cyan-300 mb-2">
+                  30% <span class="text-2xl sm:text-3xl">OFF</span>
+                </div>
+                <p class="text-cyan-100 text-sm sm:text-base font-semibold">
+                  EN NUESTRO PORTAFOLIO DE SERVICIOS
+                </p>
+                <div class="w-16 h-1 bg-gradient-to-r from-cyan-500 to-blue-500 mx-auto my-3 rounded-full"></div>
+                <p class="text-cyan-200 text-xs sm:text-sm">
+                  Válido por este mes al registrarte en el evento
+                </p>
+              </div>
+            </div>
+
+            <!-- Servicios Destacados -->
+            <div class="space-y-3">
+              <h4 class="text-lg sm:text-xl font-bold text-cyan-300 mb-3">🚀 Servicios Destacados</h4>
+              
+              <div class="flex items-center space-x-3 p-3 rounded-lg bg-cyan-900/30 border border-cyan-500/20 hover:bg-cyan-900/50 transition-all duration-300 group">
+                <div class="w-8 h-8 rounded-full bg-cyan-500 flex items-center justify-center flex-shrink-0">
+                  <span class="text-black font-bold text-sm">🌐</span>
+                </div>
+                <span class="text-cyan-100 font-medium">Desarrollo Web & Apps</span>
+              </div>
+              
+              <div class="flex items-center space-x-3 p-3 rounded-lg bg-cyan-900/30 border border-cyan-500/20 hover:bg-cyan-900/50 transition-all duration-300 group">
+                <div class="w-8 h-8 rounded-full bg-cyan-500 flex items-center justify-center flex-shrink-0">
+                  <span class="text-black font-bold text-sm">🛡️</span>
+                </div>
+                <span class="text-cyan-100 font-medium">Ciberseguridad</span>
+              </div>
+              
+              <div class="flex items-center space-x-3 p-3 rounded-lg bg-cyan-900/30 border border-cyan-500/20 hover:bg-cyan-900/50 transition-all duration-300 group">
+                <div class="w-8 h-8 rounded-full bg-cyan-500 flex items-center justify-center flex-shrink-0">
+                  <span class="text-black font-bold text-sm">📊</span>
+                </div>
+                <span class="text-cyan-100 font-medium">Consultoría TI</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Columna Derecha - Información del Evento -->
+          <div class="space-y-4 sm:space-y-6">
+            <h4 class="text-lg sm:text-xl font-bold text-cyan-300 mb-3">📅 Detalles del Evento</h4>
+            
+            <div class="space-y-4">
+              <!-- Lugar -->
+              <div class="flex items-start space-x-3 p-4 rounded-lg bg-cyan-900/20 border border-cyan-500/20">
+                <div class="w-10 h-10 rounded-full bg-cyan-500 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span class="text-black text-lg">🏢</span>
+                </div>
+                <div>
+                  <h5 class="text-cyan-200 font-bold text-sm sm:text-base">Salón de Eventos Colsubsidio</h5>
+                  <p class="text-cyan-100 text-xs sm:text-sm">Calle 26, Bogotá D.C.</p>
+                </div>
+              </div>
+              
+              <!-- Beneficios -->
+              <div class="flex items-start space-x-3 p-4 rounded-lg bg-cyan-900/20 border border-cyan-500/20">
+                <div class="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span class="text-black text-lg">🎁</span>
+                </div>
+                <div>
+                  <h5 class="text-cyan-200 font-bold text-sm sm:text-base">Beneficios Exclusivos</h5>
+                  <ul class="text-cyan-100 text-xs sm:text-sm mt-2 space-y-1">
+                    <li>• 30% de descuento en servicios</li>
+                    <li>• Asesoría personalizada gratuita</li>
+                    <li>• Demo en vivo de nuestras soluciones</li>
+                    <li>• Networking con expertos</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <!-- Llamada Urgente -->
+              <div class="p-4 rounded-lg bg-gradient-to-r from-cyan-900/30 to-blue-900/30 border border-cyan-500/30 text-center">
+                <p class="text-cyan-200 font-bold text-sm sm:text-base mb-2">
+                  ⚡ ¡Cupos Limitados!
+                </p>
+                <p class="text-cyan-100 text-xs sm:text-sm">
+                  No pierdas esta oportunidad única de transformar tu empresa
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Llamada a la Acción Mejorada -->
+        <div class="text-center p-4 sm:p-6 rounded-lg bg-gradient-to-r from-cyan-900/20 to-blue-900/20 border border-cyan-500/30">
+          <h3 class="text-xl sm:text-2xl font-bold text-cyan-300 mb-3 glow-text">
+            🎯 ¿Listo para la Transformación Digital?
+          </h3>
+          <p class="text-cyan-100 mb-4 sm:mb-6 max-w-2xl mx-auto text-sm sm:text-base">
+            <span class="text-cyan-300 font-semibold">¡Anímate!</span> Te esperamos en nuestro evento exclusivo 
+            donde revolucionaremos juntos el futuro tecnológico de tu empresa.
+          </p>
+          
+          <div class="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
+            <button 
+              id="ctaButton"
+              class="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-gray-900 font-bold py-3 sm:py-4 px-8 sm:px-12 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/25 relative overflow-hidden group text-base sm:text-lg"
+            >
+              <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+              <span class="relative z-10 flex items-center justify-center space-x-2">
+                <span class="text-xl">🎫</span>
+                <span>¡QUIERO REGISTRARME!</span>
+              </span>
+            </button>
+            
+            <button 
+              id="closeButton"
+              class="border-2 border-cyan-500 text-cyan-300 hover:bg-cyan-500/10 hover:text-cyan-100 hover:border-cyan-400 transition-all duration-300 font-bold py-3 sm:py-4 px-6 sm:px-8 rounded-lg relative overflow-hidden group text-sm sm:text-base"
+            >
+              <div class="absolute inset-0 bg-cyan-500/5 group-hover:bg-cyan-500/10 transition-colors duration-300"></div>
+              <span class="relative z-10 flex items-center justify-center space-x-2">
+                <span>Conocer Más</span>
+              </span>
+            </button>
+          </div>
+          
+          <p class="text-cyan-200 text-xs sm:text-sm mt-4">
+            📞 ¿Preguntas? Contáctanos: +1 (555) 123-4567
+          </p>
+        </div>
+      </div>
+
+      <!-- Botón de Cerrar -->
+      <button 
+        id="closeModalButton"
+        class="absolute top-2 right-2 sm:top-4 sm:right-4 text-cyan-300 hover:text-cyan-100 transition-colors duration-300 p-2 sm:p-3 rounded-lg hover:bg-cyan-900/30 bg-cyan-900/20 backdrop-blur-sm"
+        aria-label="Cerrar modal"
+      >
+        <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // TypeScript-compatible JavaScript - Modal siempre visible
+  (function() {
+    'use strict';
+
+    // Elementos del DOM
+    const elements = {
+      modal: document.getElementById('techRevolutionModal'),
+      closeButton: document.getElementById('closeButton'),
+      ctaButton: document.getElementById('ctaButton'),
+      closeModalButton: document.getElementById('closeModalButton')
+    };
+
+    // Función para mostrar el modal
+    function showModal() {
+      if (elements.modal) {
+        elements.modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    // Función para cerrar el modal
+    function closeModal() {
+      if (elements.modal) {
+        elements.modal.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+        // NO guardamos en localStorage para que siempre se muestre
+      }
+    }
+
+    // Función para redirigir a contacto
+    function redirectToContact() {
+      closeModal();
+      // Esperar un poco para que el modal se cierre antes de redirigir
+      setTimeout(() => {
+        const contactSection = document.getElementById('contacto');
+        if (contactSection) {
+          contactSection.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'start'
+          });
+        } else {
+          // Fallback: redirigir al inicio si no encuentra la sección
+          window.location.href = '/#contacto';
+        }
+      }, 300);
+    }
+
+    // Inicializar eventos cuando el DOM esté listo
+    document.addEventListener('DOMContentLoaded', () => {
+      // MOSTRAR SIEMPRE EL MODAL - Eliminada la verificación de localStorage
+      setTimeout(showModal, 2000);
+
+      // Event listeners para los botones
+      if (elements.closeButton) {
+        elements.closeButton.addEventListener('click', closeModal);
+      }
+
+      if (elements.ctaButton) {
+        elements.ctaButton.addEventListener('click', redirectToContact);
+      }
+
+      if (elements.closeModalButton) {
+        elements.closeModalButton.addEventListener('click', closeModal);
+      }
+
+      // Cerrar modal con ESC
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && elements.modal && !elements.modal.classList.contains('hidden')) {
+          closeModal();
+        }
+      });
+
+      // Cerrar modal haciendo click fuera del contenido
+      if (elements.modal) {
+        elements.modal.addEventListener('click', (e) => {
+          if (e.target === elements.modal) {
+            closeModal();
+          }
+        });
+      }
+    });
+
+    // Exponer funciones globalmente para acceso desde HTML
+    window.closeModal = closeModal;
+    window.redirectToContact = redirectToContact;
+
+  })();
+</script>
+
+<style>
+  .animation-delay-1000 {
+    animation-delay: 1s;
+  }
+  .animation-delay-1500 {
+    animation-delay: 1.5s;
+  }
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+</style>
