@@ -1,5 +1,5 @@
 ---
-// Sección de contacto con formulario Netlify corregido
+// Sección de contacto mejorada con Formulario Netlify Funcional
 ---
 
 <section id="contacto" class="py-20 bg-gray-800/50 backdrop-blur-sm">
@@ -17,23 +17,23 @@
         <div class="relative p-8 rounded-lg bg-gray-800/40 backdrop-blur-sm border border-cyan-500/30 shadow-lg shadow-cyan-500/10">
           <div class="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-500/5 to-blue-500/5"></div>
           <div class="relative space-y-6">
-            <!-- Formulario Netlify corregido -->
             <form 
               name="contact"
               method="POST"
-              netlify
+              action="/gracias"
+              data-netlify="true"
+              netlify-honeypot="bot-field"
               class="space-y-6"
             >
-              <!-- Campo oculto para Netlify -->
               <input type="hidden" name="form-name" value="contact" />
               
-              <!-- Honeypot field -->
-              <p class="hidden">
+              <!-- Honeypot para spam -->
+              <div class="hidden">
                 <label>
-                  No llenes este campo si eres humano: 
+                  No llenes este campo si eres humano:
                   <input name="bot-field" />
                 </label>
-              </p>
+              </div>
 
               <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
@@ -134,7 +134,7 @@
         </div>
       </div>
       
-      <!-- Información de Contacto (se mantiene igual) -->
+      <!-- Información de Contacto -->
       <div class="lg:w-1/2">
         <div class="relative p-8 rounded-lg bg-gray-800/40 backdrop-blur-sm border border-cyan-500/30 shadow-lg shadow-cyan-500/10 h-full">
           <div class="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-500/5 to-blue-500/5"></div>
